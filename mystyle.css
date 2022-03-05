@@ -12,17 +12,29 @@ h2 {
 }
 
 .parentdiv{
+    margin: auto;
     display: flex;
     align-items: center;
 }
 .imagediv {
-    text-align: center;
+    text-align: right;
     width: 40%;
+    padding: 10px;
+
   }
 
 .textdiv {
     text-align: center;
-    width: 50%;
+    width: 40%;
     border: 3px solid grey;
     padding: 10px;
+}
+
+.spacediv {
+    width: 10%;
+    background-color: white;
+}
+
+#spacedivRight{
+    padding-left: 180px;
 }
